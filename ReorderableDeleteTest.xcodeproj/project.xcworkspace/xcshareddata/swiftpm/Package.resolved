@@ -1,0 +1,15 @@
+{
+  "originHash" : "4210ec545e10a0a8c3739589e56e21c07d1d6d39892c21dbd9018e3a27813deb",
+  "pins" : [
+    {
+      "identity" : "reorderable",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/visfitness/reorderable",
+      "state" : {
+        "revision" : "2d8237423eab4eb8b54daddb5807b697a6dc56dc",
+        "version" : "1.0.1"
+      }
+    }
+  ],
+  "version" : 3
+}

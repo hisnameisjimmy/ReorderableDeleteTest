@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		8CA7A73A2CAA7A6F0056D1F4 /* Reorderable in Frameworks */ = {isa = PBXBuildFile; productRef = 8CA7A7392CAA7A6F0056D1F4 /* Reorderable */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		8CA7A70E2CAA79CB0056D1F4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -52,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8CA7A73A2CAA7A6F0056D1F4 /* Reorderable in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +117,7 @@
 			);
 			name = ReorderableDeleteTest;
 			packageProductDependencies = (
+				8CA7A7392CAA7A6F0056D1F4 /* Reorderable */,
 			);
 			productName = ReorderableDeleteTest;
 			productReference = 8CA7A6FD2CAA79C90056D1F4 /* ReorderableDeleteTest.app */;
@@ -195,6 +201,9 @@
 			);
 			mainGroup = 8CA7A6F42CAA79C90056D1F4;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				8CA7A7382CAA7A6F0056D1F4 /* XCRemoteSwiftPackageReference "reorderable" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 8CA7A6FE2CAA79C90056D1F4 /* Products */;
 			projectDirPath = "";
@@ -558,6 +567,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8CA7A7382CAA7A6F0056D1F4 /* XCRemoteSwiftPackageReference "reorderable" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/visfitness/reorderable";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8CA7A7392CAA7A6F0056D1F4 /* Reorderable */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8CA7A7382CAA7A6F0056D1F4 /* XCRemoteSwiftPackageReference "reorderable" */;
+			productName = Reorderable;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8CA7A6F52CAA79C90056D1F4 /* Project object */;
 }
